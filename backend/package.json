@@ -1,15 +1,14 @@
 {
-  "name": "chat-app-yt",
+  "name": "mern-chat-app",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon backend/server.js",
-    "start": "node backend/server.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ashraf Khan",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
